@@ -12,11 +12,9 @@
 
 <h3 align="center">Applied AI Engineer (in progress) | Java · AWS · GenAI | AWS Certified | Brazil & Remote</h3>
 
-<p align="center">
   <a href="https://aleclemente.github.io"><img src="https://img.shields.io/badge/Website-0f6d63?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"/></a>
   <a href="https://www.linkedin.com/in/aleclemente/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:aleclemente@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a>
-</p>
 
 ## About Me
 
@@ -58,11 +56,9 @@ Python · TypeScript · Java · LangChain · CrewAI · Claude API/Claude Code ·
 
 <h3 align="center">Applied AI Engineer (em transição) | Java · AWS · GenAI | AWS Certified | Brasil & Remoto</h3>
 
-<p align="center">
   <a href="https://aleclemente.github.io"><img src="https://img.shields.io/badge/Website-0f6d63?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"/></a>
   <a href="https://www.linkedin.com/in/aleclemente/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:aleclemente@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a>
-</p>
 
 ## Sobre Mim
 
