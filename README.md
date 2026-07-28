@@ -1,4 +1,4 @@
-# Alexandre Clemente=
+# Alexandre Clemente
 
 <h3 align="center">Applied AI Engineer (in progress) | Java · AWS · GenAI | AWS Certified | Brazil & Remote</h3>
 <p align="center" dir="auto">
