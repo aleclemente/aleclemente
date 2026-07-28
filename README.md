@@ -7,7 +7,7 @@
 
 ## About Me
 
-I am a Computer Engineer with backend software engineering and enterprise Java experience, an MBA in Full Cycle Software Architecture, and an active IBM certification in Generative AI for Software Developers. Currently building applied AI projects to complement my engineering foundation.
+Computer Engineer with backend software engineering and enterprise Java experience, an MBA in Full Cycle Software Architecture, and an active IBM certification in Generative AI for Software Developers. Currently building applied AI projects to complement my engineering foundation.
 
 For nearly three years at GFT, I delivered backend systems for global clients including Serasa Experian (Experian Global) and CVC. My work spanned Java API integration, BDD testing with Cucumber and JUnit, Kubernetes deployments, Jenkins CI/CD pipelines, and collaboration with engineering teams in the UK. I hold an AWS Certified Cloud Practitioner credential and have worked across cloud-native architectures on AWS.
 
