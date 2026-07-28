@@ -1,5 +1,7 @@
 <div align="center">
 
+# Alexandre Clemente
+
 🇺🇸 [English](#english) · 🇧🇷 [Português](#português)
 
 </div>
@@ -8,7 +10,6 @@
 
 ## English
 
-<h1 align="center">Alexandre Clemente</h1>
 <h3 align="center">Applied AI Engineer (in progress) | Java · AWS · GenAI | AWS Certified | Brazil & Remote</h3>
 
 <p align="center">
@@ -17,7 +18,7 @@
   <a href="mailto:aleclemente@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a>
 </p>
 
-## 👋 About Me
+## About Me
 
 I am a Computer Engineer with backend software engineering and enterprise Java experience, an MBA in Full Cycle Software Architecture, and an active IBM certification in Generative AI for Software Developers. Currently building applied AI projects to complement my engineering foundation.
 
@@ -55,7 +56,6 @@ Python · TypeScript · Java · LangChain · CrewAI · Claude API/Claude Code ·
 
 ## Português
 
-<h1 align="center">Alexandre Clemente</h1>
 <h3 align="center">Applied AI Engineer (em transição) | Java · AWS · GenAI | AWS Certified | Brasil & Remoto</h3>
 
 <p align="center">
@@ -64,7 +64,7 @@ Python · TypeScript · Java · LangChain · CrewAI · Claude API/Claude Code ·
   <a href="mailto:aleclemente@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a>
 </p>
 
-## 👋 Sobre Mim
+## Sobre Mim
 
 Sou Engenheiro de Computação com experiência em engenharia de software backend e Java enterprise, MBA em Arquitetura de Software Full Cycle, e certificação ativa da IBM em Generative AI for Software Developers. Atualmente construindo projetos de IA aplicada para complementar minha base de engenharia.
 
