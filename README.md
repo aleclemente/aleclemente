@@ -18,10 +18,10 @@ Since December 2024, I have been in an autonomous, deliberate transition: comple
 ## 🔭 Currently Building
 
 - **`business-tech-agency`** (private, active development) — an AI-first software delivery framework using Spec-Driven Development (SDD) and LLMs, built to scale software delivery beyond a solopreneur model.
-- **`ai-assisted-sdd-template`** (private) — the reusable SDD template/framework `business-tech-agency` is built on.
 
 ## 🚀 Featured Projects
 
+- **[ai-assisted-sdd-template](https://github.com/licorsy/ai-assisted-sdd-template)** — the reusable SDD template/framework `business-tech-agency` is built on.
 - **[restaurant-recommendation-system](https://github.com/aleclemente/restaurant-recommendation-system)** — AI-powered recommendation engine.
 - **[codecrafthub](https://github.com/aleclemente/codecrafthub)** — capstone for Coursera's "Generative AI for Software Developers" specialization.
 
