@@ -17,7 +17,7 @@ Since December 2024, I have been in an autonomous, deliberate transition: comple
 
 ## 🔭 Currently Building
 
-- **`business-tech-agency`** (private, active development) — an AI-first software delivery framework using Spec-Driven Development (SDD) and LLMs, built to scale software delivery beyond a solopreneur model. Its first shipped product, `rag-kb`, is written up in **[this case study](case-study-rag-kb.md)**: 88% correct / 0 fabrications on a held-out eval set, 100+ tests.
+- **`business-tech-agency`** (private, active development) — an AI-first software delivery framework using Spec-Driven Development (SDD) and LLMs, built to scale software delivery beyond a solopreneur model. **[This case study](case-study-business-tech-agency.md)** measures whether AI-assisted delivery is actually faster: 87 merged PRs mined, a stable 31–36%/64–69% wait/gap split, and an honest account of what the instrumentation got wrong.
 
 ## 🚀 Featured Projects
 

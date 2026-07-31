@@ -1,0 +1,15 @@
+# Case Study — Measuring AI-Assisted Delivery on business-tech-agency
+
+**The problem.** `business-tech-agency` is a framework for delivering software with an AI agent (Claude Code) doing most of the implementation work, under human-in-the-loop governance. Early on, the open question was vague and easy to dodge: *is this actually getting cheaper and faster, or does it just feel that way?* Without instrumentation, "AI-assisted delivery is fast" is a belief, not a measurement — and beliefs don't survive a technical interview's follow-up question.
+
+**Decomposition and decisions.** The approach was to decompose "is it fast" into things that could actually be measured, and build the minimum instrumentation to measure them — not a full observability platform, a targeted one: a transcript source that extracts token/cost/duration data directly from Claude Code's own session logs instead of estimating, a cost lookup that turns that into per-project spend, and phase-duration tracking that rolls it up into how long each delivery phase actually took. This shipped under the project's own ADR-0009 (cost tracking) and ADR-0012 (observability), governed by a phase-gated process where every phase transition requires explicit human approval before the agent continues.
+
+**The measured number.** Mining the merged-PR history (87 merged PRs) produced a finding that reframed the project's priorities:
+
+- **31–36%** of elapsed calendar time was spent waiting for PR approval.
+- **64–69%** was gaps *between* PRs — idle time between founder sessions, not the agent working slowly.
+- Elapsed time per delivery increment: **113.5h → 10.6h → 22.8h** across three increments — the third rose again relative to the second.
+
+That third number is reported deliberately, not omitted: the honest explanation is a longer approval gap in that increment, not a regression in the agent's execution — consistent with the 64–69% finding that the real bottleneck is calendar time between human sessions, not agent throughput. Reporting only the encouraging first two numbers would look like a cherry-picked speedup claim to exactly the audience trained to spot one. The practical consequence: automating the agent further attacks roughly a third of the calendar time; making the human approval gate cheaper to clear attacks the other two-thirds — which is where the project's next investment went.
+
+**What went wrong, and how it was caught.** An adversarial review — a deliberate second pass designed to try to break the increment's own claims, not just confirm them — found that phase-event timestamps were date-only, not date-time, silently degrading phase-duration measurement to daily granularity. The fix was identified, logged, and explicitly ruled deferred rather than patched quietly or left unmeasured: token and cost tracking already worked correctly; only phase-duration granularity was coarse, and it didn't block the milestone it was found against. The point isn't that nothing went wrong — it's that the review process was built to actually find what did.
