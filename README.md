@@ -31,7 +31,7 @@ Python · TypeScript · Java · LangChain · CrewAI · Claude API/Claude Code ·
 
 ## 🎓 Certifications & Education
 
-- IBM RAG and Agentic AI Professional Certificate — in progress
+- IBM RAG and Agentic AI Professional Certificate
 - AWS Cloud Practitioner
 - IBM Generative AI for Software Developers
 - Full Cycle Software Architecture MBA (2025)
